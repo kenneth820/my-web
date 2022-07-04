@@ -1,0 +1,73 @@
+@import "reset.css";
+
+/* h1 {
+    font-size: 50px; padding-top:50px; text-align:center;
+} */
+
+header {
+
+}
+.content {
+    display: flex;
+}
+nav {
+    position:fixed;
+    flex: 25%;
+    background-color: wheat;
+}
+.content_section {
+    flex: 75%;
+    background-color: yellowgreen;
+}
+.content_section_movie_img {
+    display: flex;
+}
+.poster {
+    /* main-axis */
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.section1 > h1 {
+    font-size: 66px;
+    font-weight: 700;
+}
+.section1 {
+    height:150px; 
+    background-color: #557DE1;
+}
+
+.section2 {
+    float:left; width:25%; height:1500px; background-color: orange;
+}
+
+.section3 {
+    float:right; width:75%; height:1500px; background-color:lightgreen;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* z-index: 10; */
+    /*다른 요소들보다 앞에 배치*/
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

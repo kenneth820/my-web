@@ -1,0 +1,68 @@
+@import "reset.css";
+
+h1 {
+    font-size: 50px; text-align:center;
+    padding: 20px 0px 20px 0px;
+}
+h2 {
+    font-size: 40px; text-align:center;
+    padding: 15px 0px 15px 0px;
+}
+h3 {
+    font-size: 30px; text-align:center;
+    padding: 10px 0px 10px 0px;
+}
+
+header {
+}
+.content {
+    display: flex;
+}
+nav {
+    min-width: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    line-height: 30px;
+    flex: 20%;
+    background-color: wheat;
+}
+.list_movie {
+    font-size: 20px;
+    font-weight: 700;
+}
+.content_section {
+    flex: 80%;
+    background-color: yellowgreen;
+}
+.content_section_movie_img {
+}
+.movie {
+}
+
+.section1 > h1 {
+    font-size: 66px;
+    font-weight: 700;
+}
+.poster {
+    margin: 10px;
+}
+.sub_title {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.list__item {
+    list-style: none;
+    display: flex;
+    /* main-axis */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:left;
+    /* align-content: center; */
+}
+
+.list-item {
+}
